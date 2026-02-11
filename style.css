@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(125, 118, 118);
+    color :rgb(251, 247, 247);
+}
+
+button{
+    border-radius: 15%;
+    background-color: #049DD9;
+    box-shadow: 5px 2px 2px rgb(42, 72, 83);
+}
+li {
+    display: flexbox;
+    justify-content: space-between;
+}
