@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../todo_web/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="data">
-    <label class="task" id="input_task" for="text">entera task :- </label>
-    <input class="task" id="input" type="text" name="task" placeholder="task">
-    <button class="button" id="add">add</button>
-    </div>
-    <ul>
 
-    </ul>
-    <script src="web.js"></script>
+<header>
+    <h1>TO DO LIST </h1>
+</header>
+
+<main>
+    <section>
+        <form class="form" action="submit">
+            <div class="all">
+            <div class="start">
+                <label class="task" for="text">Tasks :- </label>
+                <input class="task-input" type="text" placeholder="task">
+                <button class="add" type="button">Add</button>
+            </div>
+            <template class="text-template">
+           
+                <li class="list-item">
+                    <input class="checkbox" type="checkbox" name="completed" placeholder="click" checked>
+                    <label class="input-task" for="text"></label>
+                    <button class="remove" type="button">Remove</button>
+                </li>
+            
+            </template>
+        <ol class="user-task"></ol>
+    </div>
+        </form>
+
+    </section>
+</main>
+    
 </body>
+<script src="web.js"></script>
 </html>
