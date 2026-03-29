@@ -32,10 +32,6 @@ This project demonstrates core frontend development concepts such as DOM manipul
 
 ---
 
-## 🌐 Live Demo
-
-👉 https://ankushmanekar1105-ops.github.io/todo_web/
-
 ---
 
 ## ⚙️ How It Works
@@ -47,3 +43,8 @@ This project demonstrates core frontend development concepts such as DOM manipul
 5. Data is saved in browser localStorage  
 
 ---
+
+## 🌐 Live Demo
+
+👉 https://ankushmanekar1105-ops.github.io/todo_web/
+
