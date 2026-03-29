@@ -47,4 +47,3 @@ This project demonstrates core frontend development concepts such as DOM manipul
 ## 🌐 Live Demo
 
 👉 https://ankushmanekar1105-ops.github.io/todo_web/
-
