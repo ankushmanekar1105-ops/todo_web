@@ -1,26 +1,25 @@
-# 💱 Currency Exchange Rate Tracker
+# 📝 Todo Web App
 
-A responsive web application that displays real-time currency exchange rates using an external API.
+A simple and responsive web application to manage daily tasks efficiently. Users can add, complete, and delete tasks with a clean and intuitive interface.
 
 ---
 
 ## 🔍 Overview
 
-Currency Exchange Rate Tracker allows users to view the latest exchange rates between different currencies in real time.
+The Todo Web App helps users organize their daily activities by allowing them to create and manage tasks easily.
 
-This project focuses on API integration, dynamic data rendering, and responsive UI design. It provides accurate and up-to-date currency rate information without performing direct currency conversion.
-
-Exchange rate data is fetched dynamically from external APIs, which provide real-time financial data for global currencies :contentReference[oaicite:0]{index=0}.
+This project demonstrates core frontend development concepts such as DOM manipulation, event handling, and local storage for data persistence.
 
 ---
 
 ## ✨ Features
 
-- 🌍 View real-time exchange rates  
-- 🔄 Select different currencies  
-- ⚡ Fast API-based data fetching  
-- 📱 Responsive design (mobile-friendly)  
-- 🎯 Simple and clean user interface  
+- ➕ Add new tasks  
+- ✅ Mark tasks as completed  
+- 🗑️ Delete tasks  
+- 💾 Data stored using localStorage (persists after refresh)  
+- 📱 Responsive design (works on mobile & desktop)  
+- 🎯 Clean and simple user interface  
 
 ---
 
@@ -29,22 +28,22 @@ Exchange rate data is fetched dynamically from external APIs, which provide real
 - HTML5  
 - CSS3  
 - JavaScript  
-- Fetch API  
-
----
-
----
-
-## ⚙️ How It Works
-
-1. User selects base and target currencies  
-2. Application sends a request to a currency exchange API  
-3. Fetches the latest exchange rate data  
-4. Displays the result dynamically on the UI  
+- Local Storage API  
 
 ---
 
 ## 🌐 Live Demo
 
-👉 https://ankushmanekar1105-ops.github.io/currancyexchenger/
+👉 https://ankushmanekar1105-ops.github.io/todo_web/
 
+---
+
+## ⚙️ How It Works
+
+1. User enters a task in the input field  
+2. Task is added to the list dynamically  
+3. User can mark tasks as completed  
+4. Tasks can be deleted anytime  
+5. Data is saved in browser localStorage  
+
+---
